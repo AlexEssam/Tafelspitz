@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Tafelspitz| Reiterkeller</title>
+</head>
+<body>
+   <!-- Start Section Header  -->
+   <nav class="navbar navbar-expand-lg  sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/logo_tafelspitz.png" alt="Tafelspitz Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#main" aria-controls="main" 
+      aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item  ">
+
+            <a class="nav-link active" aria-current="page" href="index.html"> Home</a>
+          </li>
+
+          <li class="nav-item dropdown  ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Tafelspitz
+            </a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item" href="#">Speisekarte</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Weinkarte</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Reservierung Tafelspitz</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown  ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nudelkuchl
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">TagesKarte</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Speisekarte</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Reservierung Nudelkuchl</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Essen Bestellen</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link   " href="reiterkeller.html"> Reiterkeller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " href="catering.html"> Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " href="gutschein.html"> Gutschein</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " href="kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Section Header  -->
+
+
+<!-- Start Section Slider -->
+
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/reiterkeller-partykeller-mieten-braunau-01.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/reiterkeller-partykeller-mieten-braunau-02.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Start Section Slider -->
+
+<div class="reiterkeller">
+    <div class="container">
+        <div class="box">
+            <h1>Der Reiterkeller – Ihr Partykeller zum mieten in Braunau am Inn</h1>
+            <p>Einmal im Monat veranstalten wir eine Mottoparty. Dort, wo die Erwachsenen feiern!
+                Termine für die Partys unter Facebook</p>
+            <h2>Ihr Partykeller in Braunau zum mieten</h2>
+            <p>Die Partylocation “Reiterkeller” kann jederzeit von Ihnen gemietet werden. Hier finden Sie Platz für maximal 45 Personen; es erwartet Sie eine voll ausgestattete Bar und eine moderne Ton- und Lichtanlage. 
+                Feiern Sie mit Ihren Freunden in privater Atmosphäre eine unvergessliche Nacht bis in den Morgen.</p>
+                <h3 class="frage">
+                    Wenn Sie Interesse haben, den Reiterkeller zu mieten stellen Sie doch einfach eine Anfrage.
+                </h3>
+        </div>
+    </div>
+</div>
+
+<div class="contact">
+    <div class="container">
+        <form action="">
+          <label for="fname">VorName (Required)</label>
+          <input type="text" id="fname" name="firstname" placeholder="Vor Name.." required>
+          <label for="lname">NachName (Required)</label>
+          <input type="text" id="lname" name="lastname" placeholder="Nachname.." required>
+          <label for="tname">TelefonNummer (Required)</label>
+          <input type="tel" id="tname" name="lastname" placeholder="TelefonNummer.." required>
+          <label for="email">Email (Required)</label>
+          <input type="email" id="email" name="email" placeholder="Email.." required>
+          <label for="subject">Nachricht (Required)</label>
+          <textarea id="subject" name="subject" placeholder="Nachricht.." required style="height:200px"></textarea>
+          <input type="submit" value="Nachricht senden">
+        </form>
+      </div>
+</div>
+    <!-- Start Section Footer -->
+<div class="footer">
+    <div class="container">
+      <div class="box">
+        <p>Copyright © 2023 Tafelspitz | Powered by Alex Essam. All Right Reserved.</p>
+      </div>
+      <div class="box">
+        <a href="">Datenschutz</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
+    </div>
+ <script src="js/all.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
