@@ -495,10 +495,10 @@ input[type=text] , [type=email], [type=tel], select, textarea {
    gap: 50px;
 }
 .gutschein-photo .box {
-    background-color: #e5e5e5;
     border-radius: 20px;
     overflow: hidden;
     padding-bottom: 30px;
+    border: 1px solid black;
 }
 .gutschein-photo .box img {
     max-width: 100%;
@@ -520,10 +520,7 @@ input[type=text] , [type=email], [type=tel], select, textarea {
     padding: 0px 0 20px 20px;
 }
 .gutschein-photo .box .cart {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-text-align: center;
+    text-align: center;
 }
 .gutschein-photo .box .cart a {
     background-color: var(--primary-color-deep);
