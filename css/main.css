@@ -498,17 +498,14 @@ input[type=text] , [type=email], [type=tel], select, textarea {
     border-radius: 20px;
     overflow: hidden;
     padding-bottom: 30px;
-    border: 1px solid black;
+    border: 2px solid var(--primary-color);
 }
 .gutschein-photo .box img {
     max-width: 100%;
     border-radius: 5px 5px 0 0;
 }
 .gutschein-photo .box img:hover {
-    transform: scaleY(1.1);
-    transition: all .4s ease-in-out; 
-    object-fit: cover;
-    object-position: top;
+   filter: grayscale();
 }
 .gutschein-photo .box h1 {
     color: var(--primary-color-deep);
